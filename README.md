@@ -21,7 +21,7 @@ Esta é a API back-end do **Petshop Melhor Amigo**, responsável por intermediar
 
 O front-end envia os dados do pet (nome, gênero, raça e descrição), a API monta o prompt, chama o Gemini e devolve a descrição gerada — mantendo a chave de API protegida no servidor, longe do navegador do usuário.
 
-> 🔗 Repositório do front-end: [petshop-melhor-amigo](https://github.com/pbrunog7/petshop-melhor-amigo)
+> 🔗 Repositório do front-end: [petshop-melhor-amigo](https://pbrunog7.github.io/petshop-melhor-amigo-website/)
 
 ---
 
@@ -67,6 +67,8 @@ Content-Type: application/json
 ---
 
 ## ⚙️ Como Rodar Localmente
+
+> 🌐 API em produção: [petshop-melhor-amigo-api.onrender.com](https://petshop-melhor-amigo-api.onrender.com)
 
 ### Pré-requisitos
 

@@ -8,6 +8,10 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def index():
+    return 'API Petshop Melhor Amigo está no ar! 🐾'
+
 @app.route('/gerar-perfil-pet', methods=['POST'])
 def gerar_perfil_pet():
     dados = request.get_json()
